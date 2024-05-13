@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --cor0: #9d95b9;
+    --cor1: #4630D9;
+    --cor2: #6F38A6;
+    --cor3: #4F30BF;
+    --cor4: #292259;
+    --cor5: #2B1D40;
+    --cor6: #201630;
+
+    --fonte-destaque: "Jersey 15", sans-serif;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-nome: "Orbitron", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    min-width: 320;
+    min-height: 480;
+}
+
+h1 {
+    margin: 0;
+}
+
+strong {
+    color: var(--cor4);
+}
+
+main a {
+    background-color:#ecdaff;
+    color: var(--cor4); 
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    text-align: center;
+    min-height: 250px;
+}
+
+header h1 {
+    font-family: var(--fonte-nome);
+    font-size: 55px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+header p {
+    color: rgb(228, 228, 228);
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: auto;
+}
+
+nav {
+    background-color: var(--cor6);
+    padding: 15px ;
+}
+
+nav a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:active {
+    border-radius: 5px;
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+
+main {
+    border-radius: 0
+    0 15px 15px;
+    background-color: white;
+    box-shadow: 0px 1px 7px 2px white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 35px;
+}
+
+main h1 {
+    font-family: var(--fonte-destaque);
+    background-image: linear-gradient(to  var(--cor0));
+    font-size: 3.5em;
+    padding: 30px 0 0 0;
+    text-align: center;
+    color: var(--cor3);
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    font-size: 2.5em;    
+    color: var(--cor2);
+    text-indent: 20px;
+}
+
+article > h3 {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    color: rgb(48, 48, 48);
+    text-indent: 20px;
+}
+
+main p#introducao {
+    color: var(--cor3);
+    text-align: center;
+}
+
+article p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.4em;
+    text-indent: 30px;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+main img {
+    width: 100%;
+}
+
+div#tipos {
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 20px; 
+    background-color:#ecdaff;
+}
+
+div#tipos p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    text-indent: 30px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+#tipos h3 {
+    font-family: var(--fonte-nome);
+    font-size: 1.5em;
+}
+
+ol {
+    margin: 0;
+}
+
+ul h3 {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    color: rgb(48, 48, 48);
+}
+
+ol h3 {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    color: rgb(48, 48, 48);
+}
+
+div#video {
+    background-color: var(--cor5);
+    margin: 0 -35px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+iframe {
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    position: absolute;
+}
+
+footer {
+    padding: 7px;
+    background-color: var(--cor6);
+    color: white;
+    font-family: var(--fonte-nome);
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration:underline;
+    color: var(--cor2);
+}
