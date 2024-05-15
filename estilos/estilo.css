@@ -16,6 +16,11 @@
     --fonte-nome: "Orbitron", sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     background-color: black;
@@ -86,6 +91,15 @@ main {
     padding: 35px;
 }
 
+main p {
+    text-align: justify;
+    margin: 15px 0px;
+    text-indent: 15px;
+    line-height: 1.8em;
+    font-size: 1.4em;
+    font-family: var(--fonte-padrao);
+}
+
 main h1 {
     font-family: var(--fonte-destaque);
     background-image: linear-gradient(to  var(--cor0));
@@ -100,13 +114,15 @@ main h2 {
     font-size: 2.5em;    
     color: var(--cor2);
     text-indent: 20px;
+    margin: 45px 0;
 }
 
-article > h3 {
+article h3 {
     font-family: var(--fonte-destaque);
     font-size: 2em;
     color: rgb(48, 48, 48);
     text-indent: 20px;
+    margin: 20px 0;
 }
 
 main p#introducao {
@@ -114,21 +130,12 @@ main p#introducao {
     text-align: center;
 }
 
-article p {
-    font-family: var(--fonte-padrao);
-    font-size: 1.4em;
-    text-indent: 15px;
-    line-height: 1.8em;
-}
-
 main img {
     width: 100%;
 }
 
 div#tipos {
-    padding-top: 5px;
-    padding-right: 25px;
-    padding-bottom: 20px; 
+    padding: 5px 10px 10px 25px;
     background-color:#ecdaff;
 }
 
@@ -142,16 +149,6 @@ div#tipos p {
 #tipos h3 {
     font-family: var(--fonte-nome);
     font-size: 1.5em;
-}
-
-ol {
-    margin: 0;
-}
-
-ul h3 {
-    font-family: var(--fonte-destaque);
-    font-size: 2em;
-    color: rgb(48, 48, 48);
 }
 
 ol h3 {
