@@ -117,9 +117,8 @@ main p#introducao {
 article p {
     font-family: var(--fonte-padrao);
     font-size: 1.4em;
-    /*text-indent: 30px;*/
+    text-indent: 15px;
     line-height: 1.8em;
-    text-align: justify;
 }
 
 main img {
@@ -138,7 +137,6 @@ div#tipos p {
     font-size: 1.2em;
     text-indent: 30px;
     line-height: 1.4em;
-    text-align: justify;
 }
 
 #tipos h3 {
