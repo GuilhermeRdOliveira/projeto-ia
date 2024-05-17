@@ -154,8 +154,8 @@ ol h3 {
 
 div#video {
     background-color: var(--cor5);
-    margin: 0;
-    padding: 20px;
+    margin: 0 -30px;
+    padding: 53px;
     padding-bottom: 50%;
     position: relative;
 }
