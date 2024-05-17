@@ -24,8 +24,6 @@
 body {
     margin: 0;
     background-color: black;
-    min-width: 320;
-    min-height: 480;
 }
 
 h1 {
@@ -45,11 +43,12 @@ header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     text-align: center;
     min-height: 250px;
+    margin: auto;
 }
 
 header h1 {
     font-family: var(--fonte-nome);
-    font-size: 55px;
+    font-size: 3em;
     color: white;
     padding-top: 30px;
     padding-bottom: 25px;
@@ -81,14 +80,14 @@ nav a:active {
 }
 
 main {
+    margin: auto;
     border-radius: 0
     0 15px 15px;
     background-color: white;
     box-shadow: 0px 1px 7px 2px white;
+    padding: 30px;
     min-width: 300px;
     max-width: 1000px;
-    margin: auto;
-    padding: 35px;
 }
 
 main p {
@@ -96,7 +95,7 @@ main p {
     margin: 15px 0px;
     text-indent: 15px;
     line-height: 1.8em;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-family: var(--fonte-padrao);
 }
 
@@ -141,7 +140,6 @@ div#tipos {
 
 div#tipos p {
     font-family: var(--fonte-padrao);
-    font-size: 1.2em;
     text-indent: 30px;
     line-height: 1.4em;
 }
@@ -159,7 +157,7 @@ ol h3 {
 
 div#video {
     background-color: var(--cor5);
-    margin: 0 -35px;
+    margin: 0;
     padding: 20px;
     padding-bottom: 50%;
     position: relative;
