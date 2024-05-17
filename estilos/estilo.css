@@ -94,8 +94,7 @@ main p {
     text-align: justify;
     margin: 15px 0px;
     text-indent: 15px;
-    line-height: 1.8em;
-    font-size: 1.3em;
+    line-height: 2em;
     font-family: var(--fonte-padrao);
 }
 
@@ -140,8 +139,6 @@ div#tipos {
 
 div#tipos p {
     font-family: var(--fonte-padrao);
-    text-indent: 30px;
-    line-height: 1.4em;
 }
 
 #tipos h3 {
