@@ -135,6 +135,7 @@ main img {
 div#tipos {
     padding: 5px 10px 10px 25px;
     background-color:#ecdaff;
+    padding-right: 10px;
 }
 
 div#tipos p {
